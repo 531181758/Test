@@ -15,6 +15,7 @@
 		91371B7C212E99E600931EDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91371B7A212E99E600931EDC /* LaunchScreen.storyboard */; };
 		91371B87212E99E600931EDC /* Souretree_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91371B86212E99E600931EDC /* Souretree_TestTests.m */; };
 		91371B92212E99E600931EDC /* Souretree_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91371B91212E99E600931EDC /* Souretree_TestUITests.m */; };
+		91AE7A79212EA2D50000EA0F /* ViewController_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AE7A78212EA2D50000EA0F /* ViewController_A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		91371B8D212E99E600931EDC /* Souretree_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Souretree_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91371B91212E99E600931EDC /* Souretree_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Souretree_TestUITests.m; sourceTree = "<group>"; };
 		91371B93212E99E600931EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91AE7A77212EA2D50000EA0F /* ViewController_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController_A.h; path = Souretree_Test/ViewController_A.h; sourceTree = SOURCE_ROOT; };
+		91AE7A78212EA2D50000EA0F /* ViewController_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController_A.m; path = Souretree_Test/ViewController_A.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,8 @@
 		91371B9F212E99FD00931EDC /* A */ = {
 			isa = PBXGroup;
 			children = (
+				91AE7A77212EA2D50000EA0F /* ViewController_A.h */,
+				91AE7A78212EA2D50000EA0F /* ViewController_A.m */,
 			);
 			path = A;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91AE7A79212EA2D50000EA0F /* ViewController_A.m in Sources */,
 				91371B74212E99E500931EDC /* ViewController.m in Sources */,
 				91371B71212E99E500931EDC /* AppDelegate.m in Sources */,
 				91371B6E212E99E500931EDC /* main.m in Sources */,
@@ -521,6 +527,7 @@
 				91371B98212E99E600931EDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91371B99212E99E600931EDC /* Build configuration list for PBXNativeTarget "Souretree_TestTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +536,7 @@
 				91371B9B212E99E600931EDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91371B9C212E99E600931EDC /* Build configuration list for PBXNativeTarget "Souretree_TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +545,7 @@
 				91371B9E212E99E600931EDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
